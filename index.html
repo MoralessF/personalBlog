@@ -10,12 +10,12 @@
     <title>Welcome!</title>
     <link rel="icon" type="image/x-icon" href="https://cdn-icons-png.flaticon.com/512/714/714015.png">
 </head>
-<body class="d-flex flex-column h-100">
+<body>
     <header>
         <nav class="navbar navbar-expand-sm navbar-light bg-light">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
-                    <i class="bi bi-house-door d-none d-sm-inline d-md-none" data-toggle="tooltip" title="Go to Home page"></i>
+                    <i class="bi bi-house-door d-md-none" data-toggle="tooltip" title="Go to Home page"></i>
                     <span class="d-sm-none d-md-inline ms-1">
                         Home
                     </span>
@@ -25,23 +25,25 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-sm-0">
-                        <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#"><i class="bi bi-file-earmark-post d-md-none d-none d-sm-inline" data-toggle="tooltip" title="Go to Blog"></i>
+                        <li class="nav-item me-2">
+                            <a class="nav-link" aria-current="page" href="#">
+                                <i class="bi bi-file-earmark-post d-md-none d-none d-sm-inline" data-toggle="tooltip" title="Go to Blog"></i>                               
                                 <span class="d-sm-none d-md-inline">
                                     Blog
                                 </span>
                             </a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#"><i class="bi bi-pc-display-horizontal d-md-none d-none d-sm-inline" data-toggle="tooltip" title="Go to Portfolio"></i>
+                        <li class="nav-item me-2">
+                            <a class="nav-link" href="#">
+                                <i class="bi bi-pc-display-horizontal d-md-none d-none d-sm-inline" data-toggle="tooltip" title="Go to Portfolio"></i>
                                 <span class="d-sm-none d-md-inline">
                                     Portfolio
                                 </span>
                             </a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                <i class="bi bi-file-person d-md-none d-none d-sm-inline" data-toggle="tooltip" title="Go to Curriculum"></i>
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">                               
+                                <i class="bi bi-file-person d-md-none d-none d-sm-inline" data-toggle="tooltip" title="Go to Curriculum"></i>                               
                                 <span class="d-sm-none d-md-inline">
                                     Curriculum
                                 </span>
@@ -69,19 +71,26 @@
     </main>
 
     <footer class="footer p-4 fixed-bottom bg-light">
-        <div class="container d-flex w-100 d-flex justify-content-center pe-1 ps-1">
+        <div class="container d-flex w-100 d-flex justify-content-center pe-1 ps-1 me-2">
             <div class="d-none flex-fill d-sm-flex align-items-center justify-content-center">
                 <span class="text-muted me-1 user-select-none">Powered by </span><a class="text-primary" href="./cv.html">MoralessF</a>
             </div>
             <div class=" d-flex justify-content-around">
-                <a href="https://github.com/MoralessF/personalBlog" class="btn btn-outline-dark me-4 me-sm-2" data-toggle="tooltip" title="Go to the repo of this project">
-                    <i class="bi bi-github"></i>
+                
+                <a href="https://github.com/MoralessF/personalBlog" class="text-dark me-4 me-sm-2 p-1" data-toggle="tooltip" title="Go to the repo of this project">
+                    <h1 class="m-0">
+                        <i class="bi bi-github"></i>
+                    </h1>
                 </a>
-                <a href="https://www.linkedin.com/in/flaviomoralesang/" class="btn btn-outline-primary me-4 me-sm-2" data-toggle="tooltip" title="Go to the Dev's LinkedIn page">
-                    <i class="bi bi-linkedin"></i>
+                <a href="https://www.linkedin.com/in/flaviomoralesang/" class="text-primary me-4 me-sm-2 p-1" data-toggle="tooltip" title="Go to the Dev's LinkedIn page">
+                    <h1 class="m-0">
+                        <i class="bi bi-linkedin"></i>
+                    </h2>
                 </a>
-                <a href="https://www.linkedin.com/in/flaviomoralesang/" class="btn btn-outline-danger" data-toggle="tooltip" title="Go to the Dev's Youtube channel">
-                    <i class="bi bi-youtube"></i>
+                <a href="https://www.youtube.com/channel/UC9qOSj47n3v1Aw4VmAvIY5Q" class=" text-danger p-1" data-toggle="tooltip" title="Go to the Dev's Youtube channel">
+                    <h1 class="m-0">
+                        <i class="bi bi-youtube"></i>
+                    </h1>
                 </a>
             </div>
         </div>
